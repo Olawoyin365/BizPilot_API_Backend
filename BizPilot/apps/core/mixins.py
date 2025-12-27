@@ -74,7 +74,7 @@ class BusinessOwnerPermissionMixin:
     """
     Restricts certain actions to business owners only.
     
-    Use this mixin for sensitive operations like:
+    This mixin is meant for sensitive operations like:
     - Deleting important records
     - Modifying business settings
     - Managing staff accounts

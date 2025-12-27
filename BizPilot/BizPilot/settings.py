@@ -105,8 +105,12 @@ WSGI_APPLICATION = 'BizPilot.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'bizpilot_api',
+        'USER': 'woyin',
+        'PASSWORD': 'Pass1234',
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
 }
 

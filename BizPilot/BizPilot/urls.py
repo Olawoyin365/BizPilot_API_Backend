@@ -12,7 +12,7 @@ from rest_framework_simplejwt.views import TokenRefreshView
 
 urlpatterns = [
     # Admin panel
-    path('admin/', admin.site.admin),
+    path('admin/', admin.site.urls),
     
     # API endpoints
     path('api/account/', include('apps.account.urls')),      # Authentication & Business
